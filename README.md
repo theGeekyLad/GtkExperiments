@@ -13,6 +13,8 @@ If you've been living underground as a Linux fanboy, well then hey...Linux is he
 
 GTK Experiments aims to fill in the gaps which the commendable community of Linux developers have missed out on, as the GUI based projects here, could help you get some (rather messy) things done without having to look up a bunch of forums or even the official documentation. It's not just a single, but a bunch of projects under one hood *(with just one at the moment)*.
 
+_**Note:** All project screenshots are in their respective directories._
+
 ## GTK ... ?
 
 Though I personally am a **KDE** fanboy, **GTK** makes for neat GUIs and hence this project is based on the essential GTK libraries which if even in case you're running a Qt based desktop environment (KDE for instance), can be installed as dependencies.
@@ -21,10 +23,6 @@ Though I personally am a **KDE** fanboy, **GTK** makes for neat GUIs and hence t
 
 1. GRUB 2 Wallpaper Picker
 2. Screen Orientation Manager
-
-You can find all project screenshots in their respective directories.
-
-Hope you have fun!
 
 _**Note:** You're requested to have the latest version of Python 3 and GTK libraries installed for best results._
 
