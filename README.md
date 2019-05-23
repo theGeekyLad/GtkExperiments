@@ -63,3 +63,7 @@ _**Note:** The `bin` directory contains vital files required for execution. Dele
 
 ### Downsides
 You're required to be on an **Xorg** session for results as unfortunately _Wayland_ isn't supported at the moment. Probably down the road, yeah!
+
+### Credits
+
+Thanks to @rub077, for this project builds upon his shell script.

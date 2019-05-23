@@ -1,26 +1,7 @@
 #!/bin/bash
-# This script rotates the screen and touchscreen input 90 degrees each time it is called, 
-# also disables the touchpad, and enables the virtual keyboard accordingly
 
-# by Ruben Barkow: https://gist.github.com/rubo77/daa262e0229f6e398766
-
-#### configuration
-# find your Touchscreen and Touchpad device with `xinput`
-# TouchscreenDevice='ELAN Touchscreen'
-# TouchpadDevice='DLL07BE:01 06CB:7A13 Touchpad'
-
-if [ "$1" = "--help"  ] || [ "$1" = "-h"  ] ; then
-echo 'Usage: rotate-screen.sh [OPTION]'
-echo
-echo 'This script rotates the screen and touchscreen input 90 degrees each time it is called,' 
-echo 'also disables the touchpad, and enables the virtual keyboard accordingly'
-echo
-echo Usage:
-echo ' -h --help display this help'
-echo ' -j (just horizontal) rotates the screen and touchscreen input only 180 degrees'
-echo ' -n always rotates the screen back to normal'
-exit 0
-fi
+# created by Ruben Barkow (@rubo77)
+# modified by Rahul Pillai (@theGeekyLad)
 
 # touchpadEnabled=$(xinput --list-props "$TouchpadDevice" | awk '/Device Enabled/{print $NF}')
 if [ ! -z "$1" ]
