@@ -66,4 +66,4 @@ You're required to be on an **Xorg** session for results as unfortunately _Wayla
 
 ### Credits
 
-Thanks to @rub077, for this project builds upon his shell script.
+Thanks to @rubo77, for this project builds upon his shell script.
