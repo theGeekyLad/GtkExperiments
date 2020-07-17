@@ -40,11 +40,11 @@ right='0 1 0 -1 0 1 0 0 1'
 # xrandr -o normal
 if [ ! -z "$2" ]
 then
-    xinput set-prop "$2" 'Coordinate Transformation Matrix' $normal
+    xinput set-prop "$2" 'Coordinate Transformation Matrix' $inverted
 fi
 if [ ! -z "$1" ]
 then
-    xinput set-prop "$1" 'Coordinate Transformation Matrix' $normal
+    xinput set-prop "$1" 'Coordinate Transformation Matrix' $inverted
 fi
 if [ ! -z "$3" ]
 then
